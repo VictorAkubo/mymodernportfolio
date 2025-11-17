@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
 
+import { cn } from "@/lib/utils";
 
 export const PinContainer = ({
   children,
@@ -10,18 +10,12 @@ export const PinContainer = ({
   href,
   className,
   containerClassName,
-  img,
-  link,
-  des,
 }: {
   children: React.ReactNode;
   title?: string;
   href?: string;
   className?: string;
-  link?:string,
-  img?:string,
   containerClassName?: string;
-  des?:string
 }) => {
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
@@ -35,14 +29,13 @@ export const PinContainer = ({
   };
 
   return (
-    <a
+    <div
       className={cn(
         "relative group/pin z-50  cursor-pointer",
         containerClassName
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      href={href || "/"}
     >
       <div
         style={{
@@ -55,26 +48,14 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
+          // remove  bg-black
           className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>
       </div>
-      <PinPerspective title={title} href={link} />
-      <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-        <div className="relative w-full h-full overflow-hidden lg;rounded-3xl bg-[#13162d]">
-          <img src="/bg.png" alt="bg-img"/>
-        </div>
-        <img src={img} alt={title} className="z-10 absolute bottom-0"/>
-      </div>
-      <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{title}</h1>
-      <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">{des}</p>
-      <div className="flex items-center justify-between mt-7 mb-3">
-       <div className="flex items-center">
-         {iconLists.map((ic))}
-       </div>
-      </div>
-    </a>
+      <PinPerspective title={title} href={href} />
+    </div>
   );
 };
 
@@ -86,7 +67,8 @@ export const PinPerspective = ({
   href?: string;
 }) => {
   return (
-    <motion.div className="pointer-events-none  w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+    // change w-96 to w-full
+    <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0  flex justify-center">
           <a
