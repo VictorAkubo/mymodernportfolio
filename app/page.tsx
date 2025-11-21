@@ -3,7 +3,6 @@ import {FloatingNav} from "@/components/ui/FloatingNav"
 import { navItems } from "@/data";
 import Grid from "@/components/Grid"
 import RecentProjects from "@/components/RecentProjects";
-import Image from "next/image";
 import Client from "@/components/Client";
 import Experience from "@/components/Experience"
 import Approach from "@/components/Approach"
