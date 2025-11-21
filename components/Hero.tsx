@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36 bg-black">
+    <div className="pb-20 pt-36 bg-black w-screen h-full">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -29,7 +29,7 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full dark:bg-neutral-900 bg-white dark:bg-grid-white/[0.03] bg-grid-neutral-900/[0.2]
+        className="h-screen w-full bg-neutral-900 bg-grid-neutral-900/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
