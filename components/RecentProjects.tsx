@@ -13,16 +13,17 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-13 lg:gap-18 mt-10">
+        {/*lg:min-h-[32rem]*/}
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[28rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:h-[32.5rem] h-[28rem] flex items-center justify-center sm:w-96 w-[50vw]"
             key={item.id}
           >
             <PinContainer
               title={item.title}
               href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[50vw] overflow-hidden h-[20vh] lg:h-[24vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
