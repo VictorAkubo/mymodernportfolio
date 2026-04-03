@@ -82,7 +82,7 @@ export const projects = [
       {
     id: 2,
     title: "JOPA Foundation NGO",
-    des: "An NGO website showing all show casing the goodness and impact through men",
+    des: "An NGO website show casing the goodness and impact of God through men",
     img: "/jopafoundation.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
     link: "https://jopa-foundation.vercel.app/",
@@ -90,7 +90,7 @@ export const projects = [
     {
     id: 3,
     title: "M-ResuME website-AI powered analysis",
-    des: "A REAL Software used for analyzing resume for job seekers purely AI powered.",
+    des: "A real software used for analyzing resume for job seekers purely AI powered.",
     img: "/resumeanalyzer.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://resumeanalyzer-eosin.vercel.app/",
