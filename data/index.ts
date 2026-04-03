@@ -70,6 +70,8 @@ export const gridItems = [
   },
 ];
 
+https://jopa-foundation.vercel.app/
+
 export const projects = [
   {
     id: 1,
@@ -79,15 +81,15 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
     link: "https://mymodernportfolio.vercel.app/",
   },
-  {
+      {
     id: 2,
-    title: "Watch~ME - Video Conferencing App",
-    des: "A simple, real-time video calling website that allows users to connect instantly without complex setups.",
-    img: "/watchme.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://watch-me-gamma.vercel.app/",
+    title: "JOPA Foundation NGO",
+    des: "A REAL Software used for analyzing resume for job seekers purely AI powered.",
+    img: "/jopafoundation.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+    link: "https://jopa-foundation.vercel.app/",
   },
-  {
+    {
     id: 3,
     title: "M-ResuME website-AI powered analysis",
     des: "A REAL Software used for analyzing resume for job seekers purely AI powered.",
@@ -95,16 +97,48 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://resumeanalyzer-eosin.vercel.app/",
   },
-  {
+     {
     id: 4,
+    title: "FeetFitness E-commerce",
+    des: "A REAL Software used for analyzing resume for job seekers purely AI powered.",
+    img: "/resumeanalyzer.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    link: "https://e-commerce-phi-five-79.vercel.app/",
+  },
+       {
+    id: 5,
+    title: "AI-Agency Landing-page",
+    des: "A clean, modern AI agency landing page that highlights smart solutions like automation and data analysis. It features a strong headline, brief service overview, and a clear “Contact Us” section, making it easy for businesses to reach out and get started quickly.",
+    img: "/aiagency.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    link: "https://nexus-gamma-neon.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Watch~ME - Video Conferencing App",
+    des: "A simple, real-time video calling website that allows users to connect instantly without complex setups.",
+    img: "/watchme.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://watch-me-gamma.vercel.app/",
+  },
+  {
+    id: 7,
     title: "Nigeria Youth service corps guide application",
     des: "this application is basically meant for graduates who are preparing for NYSC camp",
     img: "/nysc.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://expo.dev/accounts/victorakubo/projects/sneak-1c880bb0-cc8f-4832-a0ad-8bb81749bdcf/builds/c619eb4a-14d2-449a-88ec-b3048",
   },
+    {
+    id: 8,
+    title: "Nigeria Youth service corps CDS Attendance",
+    des: "this application is basically meant for nysc weekly cds attendance to enable seamless up to date record keeping",
+    img: "/nyscattendance.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    link: "https://nysc-cds-attendance.vercel.app/",
+  },
   {
-    id: 5,
+    id: 9,
     title: "VPay - Digital Banking App",
     des: "A digital banking app using a Stripe-like payment system for smooth user transactions.",
     img: "/vpay.jpg",
@@ -112,7 +146,7 @@ export const projects = [
     link: "https://v-m3bmszi7k-victorakubos-projects.vercel.app/sign-in",
   },
   {
-    id: 6,
+    id: 10,
     title: "CareMe - Health & Wellness Platform",
     des: "A simple health and wellness platform focused on basic guidance and support.",
     img: "/careme.jpg",
@@ -120,7 +154,7 @@ export const projects = [
     link: "https://healthcare-me.vercel.app/ ",
   },
   {
-    id: 7,
+    id: 11,
     title: "GRRO Marketplace (E-Commerce)",
     des: "A marketplace platform providing users with a fast and easy shopping experience.",
     img: "/grro.jpg",
@@ -128,7 +162,7 @@ export const projects = [
     link: "https://grrobyvic.vercel.app/",
   },
   {
-    id: 8,
+    id: 12,
     title: "JobMe - Job Finder Platform",
     des: "A simple web app helping job seekers discover job opportunities tailored to their skills.",
     img: "/jobme.jpg",
