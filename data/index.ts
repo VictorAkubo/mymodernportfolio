@@ -76,7 +76,7 @@ export const projects = [
     title: "Explore my projects with this portfolio",
     des: "Explore my projects with this captivating modern portfolio.",
     img: "/portfolio.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://mymodernportfolio.vercel.app/",
   },
       {
@@ -108,7 +108,7 @@ export const projects = [
     title: "AI-Agency Landing-page",
     des: "A clean, modern AI agency landing page that highlights smart solutions like automation and data analysis. It features a strong headline, brief service overview, and a clear “Contact Us” section, making it easy for businesses to reach out and get started quickly.",
     img: "/aiagency.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
     link: "https://nexus-gamma-neon.vercel.app/",
   },
   {
@@ -116,7 +116,7 @@ export const projects = [
     title: "Watch~ME - Video Conferencing App",
     des: "A simple, real-time video calling website that allows users to connect instantly without complex setups.",
     img: "/watchme.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://watch-me-gamma.vercel.app/",
   },
   {
@@ -164,7 +164,7 @@ export const projects = [
     title: "JobMe - Job Finder Platform",
     des: "A simple web app helping job seekers discover job opportunities tailored to their skills.",
     img: "/jobme.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://expo.dev/accounts/victorugbedea/projects/NEWJOBME/builds/6e572f52-e681-420f-8906-f343bfc8d753 ",
   },
 ];

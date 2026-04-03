@@ -7,21 +7,25 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
-      {/**
-       *  UI: Spotlights
-       *  Link: https://ui.aceternity.com/components/spotlight
-       */}
-      <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
-      </div>
+<div className="overflow-hidden bg-black">
+  {/* Primary Brand Spotlight - Top Left */}
+  <Spotlight
+    className="-top-40 left-0 md:left-60 md:-top-20 opacity-70"
+    fill="rgba(59, 130, 246, 0.5)" // Soft Blue
+  />
+  
+  {/* Secondary Accent - Top Right */}
+  <Spotlight
+    className="top-10 left-full h-[80vh] w-[50vw] opacity-40"
+    fill="rgba(16, 185, 129, 0.3)" // Soft Emerald
+  />
+
+  {/* Center Focus - Subtle highlight for CTA */}
+  <Spotlight
+    className="top-[30%] left-[20%] h-[70vh] w-[70vw] opacity-20"
+    fill="#ffffff" // Pure white at low opacity creates a "silver" shine
+  />
+</div>
 
       {/**
        *  UI: grid
@@ -29,14 +33,14 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full bg-neutral-900 bg-grid-neutral-900/[0.2]
+        className="h-screen w-full bg-black-900 bg-grid-black-900/[0.03]
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-neutral-800
-         bg-neutral-900 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+          className="absolute pointer-events-none inset-0 flex items-center justify-center
+          bg-black-900 dark:bg-black-800
+         [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
 
