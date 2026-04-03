@@ -70,8 +70,6 @@ export const gridItems = [
   },
 ];
 
-https://jopa-foundation.vercel.app/
-
 export const projects = [
   {
     id: 1,
