@@ -51,7 +51,7 @@ export const gridItems = [
     id: 5,
     title: "Currently building the MetaEdge EducateMe website",
     description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
+    className: "md:col-span-3 md:row-span-2 lg:col-span-3",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
@@ -63,8 +63,7 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName:
-      "justify-center md:max-w-full max-w-60 text-center",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
   },
@@ -79,36 +78,36 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://mymodernportfolio.vercel.app/",
   },
-      {
+  {
     id: 2,
     title: "JOPA Foundation NGO",
     des: "An NGO website show casing the goodness and impact of God through men",
     img: "/jopafoundation.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://jopa-foundation.vercel.app/",
   },
-    {
+  {
     id: 3,
     title: "M-ResuME website-AI powered analysis",
     des: "A real software used for analyzing resume for job seekers purely AI powered.",
     img: "/resumeanalyzer.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://resumeanalyzer-eosin.vercel.app/",
   },
-     {
+  {
     id: 4,
     title: "FeetFitness E-commerce",
     des: "An ecommerce website for clothing including men, women and kids",
     img: "/feetfitness.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://e-commerce-phi-five-79.vercel.app/",
   },
-       {
+  {
     id: 5,
     title: "AI-Agency Landing-page",
     des: "A clean, modern AI agency landing page that highlights smart solutions like automation and data analysis. It features a strong headline, brief service overview, and a clear “Contact Us” section, making it easy for businesses to reach out and get started quickly.",
     img: "/aiagency.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://nexus-gamma-neon.vercel.app/",
   },
   {
@@ -124,15 +123,15 @@ export const projects = [
     title: "Nigeria Youth service corps guide application",
     des: "this application is basically meant for graduates who are preparing for NYSC camp",
     img: "/nysc.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://expo.dev/accounts/victorakubo/projects/sneak-1c880bb0-cc8f-4832-a0ad-8bb81749bdcf/builds/c619eb4a-14d2-449a-88ec-b3048",
   },
-    {
+  {
     id: 8,
     title: "Nigeria Youth service corps CDS Attendance",
     des: "this application is basically meant for nysc weekly cds attendance to enable seamless up to date record keeping",
     img: "/nyscattendance.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://nysc-cds-attendance.vercel.app/",
   },
   {
@@ -238,29 +237,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "FrontendEnd Developer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer",
+    desc: "Worked at GRRO, developing and maintaining a web-based agricultural marketplace using React.js. Translated Figma designs into responsive interfaces, implemented product pages, checkout functionality, dashboards, and interactive features.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - MetaEdge Tech",
-    desc: "Designed and developed mobile app for both Android platforms using React Native.",
+    title: "Software Developer",
+    desc: "Worked at Workbrook, contributing to software development projects involving payment gateway integrations, AI-powered evaluation tools, and community management systems. Collaborated with developers to build, test, and improve application functionality.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Web & App Development Projects",
-    desc: "Worked on designing and developing websites and mobile apps for clients, implementing features based on project requirements.",
+    title: "Full Stack Developer",
+    desc: "Designed and developed full-stack web applications using React.js, Next.js, Node.js, Express.js, and MongoDB. Built REST APIs, implemented authentication, integrated third-party services, and developed scalable application features.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Junior App Developer",
-    desc: "Contributed to app development projects, collaborating with teams to implement UI components, debug issues, and improve functionality.",
+    title: "Desktop & Application Developer",
+    desc: "Worked on cross-platform desktop and mobile application development, leveraging Electron and React Native. Built application features, integrated APIs, handled application state, and improved overall functionality.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -270,13 +269,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/VictorAkubo"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:"https://x.com/A_Victor_Paul"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/victor-ugbede-akubo"
   },
 ];

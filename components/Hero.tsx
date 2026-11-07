@@ -10,7 +10,7 @@ const Hero = () => {
 <div className="overflow-hidden bg-black">
   {/* Primary Brand Spotlight - Top Left */}
   <Spotlight
-    className="-top-40 left-0 md:left-60 md:-top-20 opacity-70"
+    className="-top-40 left-0 h-screen md:left-60 md:-top-20 opacity-70"
     fill="rgba(59, 130, 246, 0.5)" // Soft Blue
   />
   
@@ -33,13 +33,13 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full bg-black-900 bg-grid-black-900/[0.03]
+        className="h-screen w-full bg-black-100 bg-grid
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
           className="absolute pointer-events-none inset-0 flex items-center justify-center
-          bg-black-900 dark:bg-black-800
+          bg-black-100
          [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
